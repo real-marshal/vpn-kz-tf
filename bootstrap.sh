@@ -1,5 +1,7 @@
 export DEBIAN_FRONTEND=noninteractive
 
+curl -LsS https://cdn.jsdelivr.net/gh/missuo/OpenAI-Checker/openai.sh | bash
+
 apt-get update -qq > /dev/null
 apt-get install -y -qq curl > /dev/null
 

@@ -6,7 +6,7 @@ resource "serverspace_ssh" "key" {
 resource "serverspace_server" "vpn" {
   name = "vpn"
   image = "Ubuntu-22.04-X64"
-  location = "kz"
+  location = "am2"
   cpu = 1
   ram = 1024
 
